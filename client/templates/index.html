@@ -1,3 +1,19 @@
 <template name="index">
-<div>baby beeow</div>
+{{#contentFor "headerTitle"}}
+    <h1 class="title">CalledIt</h1>
+{{/contentFor}}
+
+{{#ionView}}
+  {{#ionContent}}
+    <div align="center">
+      <svg height="200" width="200">
+        <polygon points="100,140 195,195 5,195" style="fill:brown;stroke:black;stroke-width:3" />
+        <circle cx="100" cy="100" r="80" stroke="white" stroke-width="1" fill="white" fill-opacity="1.0" />
+        <circle cx="100" cy="100" r="80" stroke="black" stroke-width="3" fill="white" fill-opacity="0.0" />
+
+      </svg>
+    </div>
+  {{/ionContent}}
+{{/ionView}}
+
 </template>
